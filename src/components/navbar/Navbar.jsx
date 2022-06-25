@@ -9,8 +9,12 @@ import {
   ListOutlined,
 } from "@mui/icons-material";
 import "./navbar.scss";
+import { DarkModeContext } from "../../context/darkModeContext";
+import { useContext } from "react";
 
 const Navbar = () => {
+  const { dispatch } = useContext(DarkModeContext);
+
   return (
     <div className="navbar">
       <div className="wrapper">
@@ -24,7 +28,10 @@ const Navbar = () => {
             English
           </div>
           <div className="item">
-            <DarkModeOutlined className="icon" />
+            <DarkModeOutlined
+              className="icon"
+              onClick={() => dispatch({ type: "TOGGLE" })}
+            />
           </div>
           <div className="item">
             <FullscreenExitOutlined className="icon" />
@@ -41,7 +48,11 @@ const Navbar = () => {
             <ListOutlined className="icon" />
           </div>
           <div className="item">
-            <img src="https://images.pexels.com/photos/3586798/pexels-photo-3586798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="avatar" className="avatar" />
+            <img
+              src="https://images.pexels.com/photos/3586798/pexels-photo-3586798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="avatar"
+              className="avatar"
+            />
           </div>
         </div>
       </div>
