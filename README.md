@@ -1,6 +1,6 @@
 # React Admin Dashboard with Dark Mode using React, React-Router, React.Context
 # Live
-[https://berdibekovadilet-todo.netlify.app/](https://admindashboard12.netlify.app/)
+https://admindashboard12.netlify.app/
 
 # Covers
 ![cover](cover/1.png)
