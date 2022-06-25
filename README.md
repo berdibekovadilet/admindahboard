@@ -3,10 +3,10 @@
 https://berdibekovadilet-todo.netlify.app/
 
 # Covers
-![cover](cover/1.jpg)
-![cover2](cover/2.jpg)
-![cover3](cover/3.jpg)
-![cover4](cover/4.jpg)
+![cover](cover/1.png)
+![cover2](cover/2.png)
+![cover3](cover/3.png)
+![cover4](cover/4.png)
 
 ## Available Scripts
 
